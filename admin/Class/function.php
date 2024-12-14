@@ -16,12 +16,8 @@
                 die ("Database Connection Error!");
             }
         }
-
+        
        
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "blogproject";
 
 $connection = new mysqli($servername, $username, $password, $dbname);
 
